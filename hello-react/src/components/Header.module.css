@@ -1,0 +1,86 @@
+.header {
+    width: 99.8%;
+    height: 80px;
+    /* border: 1px solid black;
+    background-color: rgb(230, 203, 184); */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeLogo {
+    width: 50px;
+    height: 50px;
+}
+
+.homeLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.homeLogo a:hover {
+    cursor: grab;
+}
+
+.nav {
+    width: 50%;
+    list-style: none;
+    display: flex;
+}
+
+.nav a {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.nav a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav li {
+    width: 100%;
+    /* border: 1px solid black; */
+
+    display: flex;
+    justify-content: center;
+
+    transition: 1s;
+}
+
+.nav li:hover {
+    background-color: thistle;
+    cursor: grab;
+}
+
+.user {
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user a {
+    height: 100%;
+}
+
+.user button {
+    height: 100%;
+    
+    border: none;
+    background-color: white;
+
+    transition: 2s;
+}
+
+.user button:hover {
+    background-color: teal;
+    cursor: grab;
+}
+
+
+

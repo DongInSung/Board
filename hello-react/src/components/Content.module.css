@@ -1,0 +1,8 @@
+.content {
+    flex-grow: 1;
+
+    width: 99.8%;
+    border: 1px solid black;
+
+    /* background-color: gold; */
+}

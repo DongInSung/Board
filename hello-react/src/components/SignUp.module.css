@@ -1,0 +1,89 @@
+.signUp {
+    width: 100%;
+    height: 100%;
+
+    /* background-color: goldenrod; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container table {
+    width: 500px;
+    height: 300px;
+}
+
+.container th {
+    height: 30px;
+}
+
+.container table td {
+    width: 100px;
+    height: 70px;
+}
+
+.container table tr td:nth-child(2) {
+    text-align: center;
+}
+
+.container label {
+    font-weight: bold;
+}
+
+
+.container input {
+    width: 200px;
+    height: 12px;
+    padding: 10px;
+    border: 1.5px solid black;
+}
+
+.inputId {
+    width: 125px !important;
+}
+
+.idCheck {
+    background-color: white;
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+
+.submitBtn {
+    width: 200px;
+    height: 50px;
+
+    font-size: 15px;
+    font-weight: bold;
+    border: 0.5px solid black;
+    background-color: white;
+    
+}
+
+.submitBtn:hover {
+    cursor: grab;
+}
+
+
+
+.regCheck {
+    border: 1.5px solid red !important;
+}
+
+.regCheck:focus {
+    outline: 1.5px solid red;
+}
+
